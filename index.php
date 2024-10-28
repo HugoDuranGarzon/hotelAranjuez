@@ -1,4 +1,5 @@
 <?php include 'log/header.php' ?>
+<script src="js/script.js"></script>
 
 
     <div class="container" style="margin-top: 50px;">
@@ -26,31 +27,31 @@
                 <tbody>
                     <tr class="">
                         <td scope="row"><b>Productos:</b></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td id="demo1"></td>
+                        <td id="demo2"></td>
+                        <td id="demo3"></td>
+                        <td id="demo4"></td>
+                        <td id="demo5"></td>
                     </tr>
                     <tr class="">
                         <td scope="row"><b>Gastos:</b></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td id="demo6"></td>
+                        <td id="demo7"></td>
+                        <td id="demo8"></td>
+                        <td id="demo9"></td>
+                        <td id="demo10"></td>
                     </tr>
                 </tbody>
             </table>
         </div>
 
-        <button class="btn btn-danger">Mis Compras</button>
+        <button class="btn btn-danger" onclick="funcion1()">Mis Compras</button>
 
 
         <div style="padding: 20px; background-color:beige; border:2px solid black; height:300px; width: 350px; float:right;">
             <p style="text-align: center;">gastos semanales</p>
             <br>
-            <p>Totales gastos: </p>
+            <p>Totales gastos: </p> <p id="answer"></p>
         </div>
 
     </div>
